@@ -1,1 +1,9 @@
-{"reminders":[]}
+{
+  "reminders": [    {
+      "id": "R_52hvwuidius",
+      "message": "CLOUD TEST 2 - Reminder via GitHub Actions",
+      "time": "2026-06-14T16:01:13+02:00",
+      "created": "2026-06-14T15:59:14+02:00"
+    }
+  ]
+}
