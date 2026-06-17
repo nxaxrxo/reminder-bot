@@ -29,6 +29,10 @@ for r in data.get("reminders", []):
     except (ValueError, KeyError):
         continue
 
+    # If timezone-naive, treat as UTC
+    if remind_time.tzinfo is None:
+        remind_time = remind_time.replace(tzinfo=timezone.utc)
+
     if remind_time <= now:
         # Send Telegram
         msg = f"REMINDER\n\n{r['message']}\n\n- Joyce"
