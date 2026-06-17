@@ -1,18 +1,22 @@
 {
-  "reminders": [
-    {
+  "reminders": [    {
       "id": "R_eqk5vskarni",
       "message": "The system works. Everything's good. All is chill.",
       "time": "2026-06-17T22:00:00+00:00",
       "created": "2026-06-17T11:20:33+02:00",
       "repeat": null
-    },
-    {
+    },    {
       "id": "R_rmlapcutyrq",
       "message": "RECURRING TEST - reschedules daily",
       "time": "2026-06-18T09:27:20+00:00",
       "created": "2026-06-17T11:25:21+02:00",
       "repeat": "daily"
+    },    {
+      "id": "R_qm32mbqoxmk",
+      "message": "INTERVAL TEST - fires every hour",
+      "time": "2026-06-17T09:33:27Z",
+      "created": "2026-06-17T11:31:28+02:00",
+      "repeat": "hourly"
     }
   ]
 }
